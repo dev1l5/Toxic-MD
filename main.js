@@ -25,7 +25,7 @@ const store = makeInMemoryStore({
     })
 })
 
-let phoneNumber = "2348024906596"
+let phoneNumber = "254788599669"
 let owner = JSON.parse(fs.readFileSync('./database/owner.json'))
 
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
@@ -170,7 +170,7 @@ XeonBotInc.ev.on("connection.update",async  (s) => {
             console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ ${botname} ]`)}\n\n`))
             console.log(chalk.cyan(`< ================================================== >`))
 	        console.log(chalk.magenta(`\n${themeemoji} YT CHANNEL: Resonex`))
-            console.log(chalk.magenta(`${themeemoji} GITHUB: Joker-Reincarnated `))
+            console.log(chalk.magenta(`${themeemoji} GITHUB: dev1l5 `))
             console.log(chalk.magenta(`${themeemoji} INSTAGRAM: @null `))
             console.log(chalk.magenta(`${themeemoji} WA NUMBER: ${owner}`))
             console.log(chalk.magenta(`${themeemoji} CREDIT: ${wm}\n`))
